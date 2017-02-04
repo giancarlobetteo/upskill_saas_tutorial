@@ -57,3 +57,14 @@ h1, h2, h3 {
     opacity: 0.75;
   }
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid #fff;
+  &:hover, &:focus {
+    background-color: #00C6ff;
+  }
+}
